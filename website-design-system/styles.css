@@ -1,0 +1,217 @@
+body {
+  background-color: floralwhite;
+}
+
+section, table, td, tr, p{
+    box-sizing: border-box;
+    text-overflow: scroll;
+}
+
+section {
+  border: 10px solid #69696955;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+h2, h1 {
+  font-family: "Raleway", "Verdana", sans-serif;
+  text-align: center;
+}
+
+.colors p {
+  font-family: 'Source Code Pro', monospace;
+  line-height: 1.5;
+  margin: 0;
+}
+
+footer {
+  background-color: #FAF0E6;
+  margin-top: 20px;
+}
+footer td{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  word-spacing: 0.2em;
+  text-align: center;
+  color: dimgray;
+  vertical-align: middle;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;  
+  border-spacing: 2em;
+}
+
+.colors table {
+  margin: 5px auto;
+  border-spacing: 1em;
+}
+
+.colors td {
+  margin: 5px 10px;
+  border: 1px solid dimgray;
+}
+
+.linen {
+  background-color: #FAF0E6;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+
+.azure {
+  background-color: #F0FFFF;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+
+.royal-blue {
+  background-color: #4169e1;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  color: azure;
+}
+
+.dark-orange {
+  background-color: #FF8C00;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+
+.sea-green {
+  background-color: #2e8b57;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  color: azure;
+}
+
+.dark-sea-green {
+  background-color: #8FBC8F;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+
+.black {
+  background-color: #000;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  color: azure;
+}
+
+.dim-gray {
+  background-color: #696969;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  color: azure;
+}
+
+.floral-white {
+  background-color: #FFFAF0;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+
+.colors td:hover {
+  font-size: 1.2em;
+  transition: 0.1s;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.regular p {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400; 
+}
+
+.merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.sourcecodepro {
+  font-family: 'Source Code Pro', monospace;
+}
+
+h3 {
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.heading {
+  font-family: "Raleway", serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.subheading {
+  font-family: "Raleway", serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.category-heading {
+  font-family: "Montserrat", serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.paragraph {
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.tech-info {
+  font-family: "Source Code Pro", monospace;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.unordered-list {
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  font-weight: 400;
+  list-style-type: square;
+}
+
+.text-style td, .typography td {
+  vertical-align: baseline;
+  min-width: 30px;
+  }
+
+.typography h3 {
+  font-size: 22px;
+}
