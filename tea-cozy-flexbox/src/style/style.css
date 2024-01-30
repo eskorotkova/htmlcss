@@ -1,0 +1,146 @@
+.main-text {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+div.menubar {
+  box-sizing: border-box;
+  display: flex;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  width: 99%;
+  justify-content:flex-end;
+  top: 0px;
+}
+img.logo {
+  height: 50px;
+  margin: 10px;
+  position: fixed;
+  left: 10px;
+}
+.navigation > li {
+  padding-right: 1em;
+}
+
+ul.navigation {
+  display: inline-flex;
+}
+a.navigation {
+  text-decoration: underline;
+  color: seashell;
+}
+a:visited {
+  color: seashell;
+}
+a:hover {
+  color: orange;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+div.mission {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 700px;
+
+}
+.bg-image {
+  z-index: -1;
+  max-width: 1200px;
+}
+
+
+div.text {
+  width: 1200px;
+  align-content: center;
+  position: absolute;
+  background-color: black;
+  opacity: 0.9;
+  top: 50%;
+}
+
+div.featured {
+  align-content: center;
+  background-color: black;
+  justify-content: center;
+}
+div.ft-text {
+  display: block;
+}
+div.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+figure img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  clear: left;
+}
+
+div.locations {
+  display: flex;
+  height: 500px;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+
+}
+div.locations > h2{
+  margin: 30px auto; 
+  position: absolute;
+}
+
+div.block-loc {
+  flex-flow: row wrap;
+  position: absolute;
+  box-sizing: border-box;
+  display: inline-flex;
+  margin-top: 15px;
+  justify-content: center;
+  flex-basis: 1000px;
+}
+
+div.block-loc > ul { 
+  width: 300px;
+  opacity: 1;
+  margin-left: 40px;
+  margin-top: 3em;
+  padding-left: 0;}
+
+.block-loc > ul > li{
+  padding: 10px; 
+}
+
+footer {
+  padding: 1em;
+  margin: 0 auto;
+  display: block;
+}
+
+div.about {
+  max-height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.copyright {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+

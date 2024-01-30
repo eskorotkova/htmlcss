@@ -1,0 +1,74 @@
+.main-text {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+a.navigation {
+  text-decoration: underline;
+  color: seashell;
+}
+a:hover {
+  color: orange;
+}
+
+li {
+  list-style-type: none;
+}
+ul {
+  display: inline-block;
+}
+header {
+  position: fixed;
+  box-sizing: box-model;
+  display: flex;
+  justify-content: space-around;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+.navigation > li {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+img.logo {
+  height: 50px;
+  margin: 10px;
+}
+
+div.mission {
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+
+img.mission {
+  position: absolute;
+  height: 700px;
+  z-index: 1;
+  top: 0px;
+}
+
+div.featured {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+}
+figure img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  clear: both;
+}
+
+figure figcaption {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+}
