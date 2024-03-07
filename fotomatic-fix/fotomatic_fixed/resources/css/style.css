@@ -33,6 +33,10 @@ html {
     top: 2.5625rem;
   }
 }
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
 
 /* Header */
 
@@ -41,6 +45,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  height: 5.3125rem;
 }
 
 header .content {
@@ -51,10 +56,14 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-family: "Roboto-Mono-Regular", monospace;
+  font-size: 1.5rem;
+  color: #4a4a4a;
 }
 
 header nav ul {
   display: flex;
+  list-style-type: none;
 }
 
 nav li {
@@ -117,18 +126,21 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url("../images/banner-landingpage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
-  padding: 0 5rem 2.5rem 5rem;
+  padding: 2rem 5rem 3.5rem;
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin: 10.625rem 6.25rem;
 }
 
 #sign-up-cta .content {
   width: 25.625rem;
-  margin-top: 2rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -147,6 +159,7 @@ header .mobile {
   font-weight: bold;
 }
 
+
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
 }
@@ -159,6 +172,7 @@ header .mobile {
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -212,21 +226,23 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  padding: 4rem 5% 2.875rem;
   background-color: #f3f3f3;
 }
 
 .feature {
   flex: 1;
-  padding: 2rem;
-  margin: 0px 1.25rem;
-  background-color: white;
+  height: 39.6875rem;
+  margin: 0 1.1875rem;
+  background-color: white;  
 }
 
 .feature .image-container {
-  width: 90%;
-  height: 65%;
-  margin: 0 auto;
+  padding: 2rem 2rem 0;
+}
+
+.feature .image-container img {
+  width: 100%;
 }
 
 .feature h2 {
@@ -241,6 +257,14 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+}
+
+.feature .content {
+  height: 11.6875rem; 
+  padding: 2.5rem 2rem 0;
+}
+.feature .center {
+  height: 37.6875rem;
 }
 
 @media only screen and (max-width: 890px) {
@@ -268,6 +292,11 @@ header .mobile {
   }
 }
 
+@media only screen and (min-width: 1580px) {
+  .feature .image-container {
+    max-height: 28rem;
+  }
+}
 /* Filters Section */
 
 #filters-section {
@@ -296,6 +325,11 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+}
+
+#filters-section .images-container img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -334,20 +368,20 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
-  font-family: "Palatino", serif;
+  font-family: Palatino, "Palatino LT", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
