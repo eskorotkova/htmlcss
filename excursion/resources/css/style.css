@@ -34,5 +34,30 @@ html {
 
 footer {
   color: gray;
+}
+
+footer a {
+  color: gray;
+}
+
+footer a:hover {
+  cursor: pointer;
+}
+
+.right {
+  float: right;
   text-align: right;
+  width:33%;
+}
+
+.center {
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.left {
+  float: left;
+  text-align: left;
+  width: 33%;
 }
